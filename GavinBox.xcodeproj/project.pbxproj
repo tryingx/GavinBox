@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86AC622E19F2391400E77142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC622D19F2391400E77142 /* main.m */; };
+		86AC623119F2391400E77142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC623019F2391400E77142 /* AppDelegate.m */; };
+		86AC623419F2391400E77142 /* GavinBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86AC623219F2391400E77142 /* GavinBox.xcdatamodeld */; };
+		86AC623719F2391400E77142 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC623619F2391400E77142 /* ViewController.m */; };
+		86AC623A19F2391400E77142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC623819F2391400E77142 /* Main.storyboard */; };
+		86AC623C19F2391400E77142 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AC623B19F2391400E77142 /* Images.xcassets */; };
+		86AC623F19F2391400E77142 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AC623D19F2391400E77142 /* LaunchScreen.xib */; };
+		86AC624B19F2391400E77142 /* GavinBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC624A19F2391400E77142 /* GavinBoxTests.m */; };
+		86AC626719F23B7500E77142 /* DataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC626619F23B7500E77142 /* DataCache.m */; };
+		86AC628B19F23B8100E77142 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC626B19F23B8100E77142 /* NSObject+SBJSON.m */; };
+		86AC628C19F23B8100E77142 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC626D19F23B8100E77142 /* NSString+SBJSON.m */; };
+		86AC628D19F23B8100E77142 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC626F19F23B8100E77142 /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC628E19F23B8100E77142 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627119F23B8100E77142 /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC628F19F23B8100E77142 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627319F23B8100E77142 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629019F23B8100E77142 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627519F23B8100E77142 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629119F23B8100E77142 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 86AC627719F23B8100E77142 /* LICENSE */; };
+		86AC629219F23B8100E77142 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627819F23B8100E77142 /* README.md */; };
+		86AC629319F23B8100E77142 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627A19F23B8100E77142 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629419F23B8100E77142 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC627E19F23B8100E77142 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629519F23B8100E77142 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC628019F23B8100E77142 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629619F23B8100E77142 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC628319F23B8100E77142 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629719F23B8100E77142 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC628619F23B8100E77142 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86AC629819F23B8100E77142 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC628819F23B8100E77142 /* UIButton+WebCache.m */; };
+		86AC629919F23B8100E77142 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AC628A19F23B8100E77142 /* UIImageView+WebCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86AC624519F2391400E77142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AC622019F2391400E77142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86AC622719F2391400E77142;
+			remoteInfo = GavinBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86AC622819F2391400E77142 /* GavinBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GavinBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AC622C19F2391400E77142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AC622D19F2391400E77142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86AC622F19F2391400E77142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86AC623019F2391400E77142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86AC623319F2391400E77142 /* GavinBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GavinBox.xcdatamodel; sourceTree = "<group>"; };
+		86AC623519F2391400E77142 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		86AC623619F2391400E77142 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		86AC623919F2391400E77142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86AC623B19F2391400E77142 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86AC623E19F2391400E77142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		86AC624419F2391400E77142 /* GavinBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GavinBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AC624919F2391400E77142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AC624A19F2391400E77142 /* GavinBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GavinBoxTests.m; sourceTree = "<group>"; };
+		86AC626519F23B7500E77142 /* DataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCache.h; sourceTree = "<group>"; };
+		86AC626619F23B7500E77142 /* DataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCache.m; sourceTree = "<group>"; };
+		86AC626919F23B8100E77142 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		86AC626A19F23B8100E77142 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		86AC626B19F23B8100E77142 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		86AC626C19F23B8100E77142 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		86AC626D19F23B8100E77142 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		86AC626E19F23B8100E77142 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		86AC626F19F23B8100E77142 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		86AC627019F23B8100E77142 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		86AC627119F23B8100E77142 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		86AC627219F23B8100E77142 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		86AC627319F23B8100E77142 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		86AC627419F23B8100E77142 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		86AC627519F23B8100E77142 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		86AC627719F23B8100E77142 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		86AC627819F23B8100E77142 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		86AC627919F23B8100E77142 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		86AC627A19F23B8100E77142 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		86AC627B19F23B8100E77142 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		86AC627C19F23B8100E77142 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		86AC627D19F23B8100E77142 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		86AC627E19F23B8100E77142 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		86AC627F19F23B8100E77142 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		86AC628019F23B8100E77142 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		86AC628119F23B8100E77142 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		86AC628219F23B8100E77142 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		86AC628319F23B8100E77142 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		86AC628419F23B8100E77142 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		86AC628519F23B8100E77142 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		86AC628619F23B8100E77142 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		86AC628719F23B8100E77142 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		86AC628819F23B8100E77142 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		86AC628919F23B8100E77142 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		86AC628A19F23B8100E77142 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86AC622519F2391400E77142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AC624119F2391400E77142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86AC621F19F2391400E77142 = {
+			isa = PBXGroup;
+			children = (
+				86AC622A19F2391400E77142 /* GavinBox */,
+				86AC624719F2391400E77142 /* GavinBoxTests */,
+				86AC622919F2391400E77142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86AC622919F2391400E77142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86AC622819F2391400E77142 /* GavinBox.app */,
+				86AC624419F2391400E77142 /* GavinBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86AC622A19F2391400E77142 /* GavinBox */ = {
+			isa = PBXGroup;
+			children = (
+				86AC622F19F2391400E77142 /* AppDelegate.h */,
+				86AC623019F2391400E77142 /* AppDelegate.m */,
+				86AC623819F2391400E77142 /* Main.storyboard */,
+				86AC623B19F2391400E77142 /* Images.xcassets */,
+				86AC623D19F2391400E77142 /* LaunchScreen.xib */,
+				86AC623219F2391400E77142 /* GavinBox.xcdatamodeld */,
+				86AC625419F2398D00E77142 /* Controllers */,
+				86AC625719F2398D00E77142 /* Views */,
+				86AC625519F2398D00E77142 /* Models */,
+				86AC625B19F23AA000E77142 /* Images */,
+				86AC625619F2398D00E77142 /* Utils */,
+				86AC622B19F2391400E77142 /* Supporting Files */,
+			);
+			path = GavinBox;
+			sourceTree = "<group>";
+		};
+		86AC622B19F2391400E77142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AC622C19F2391400E77142 /* Info.plist */,
+				86AC622D19F2391400E77142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AC624719F2391400E77142 /* GavinBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				86AC624A19F2391400E77142 /* GavinBoxTests.m */,
+				86AC624819F2391400E77142 /* Supporting Files */,
+			);
+			path = GavinBoxTests;
+			sourceTree = "<group>";
+		};
+		86AC624819F2391400E77142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AC624919F2391400E77142 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86AC625419F2398D00E77142 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86AC623519F2391400E77142 /* ViewController.h */,
+				86AC623619F2391400E77142 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		86AC625519F2398D00E77142 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86AC625619F2398D00E77142 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86AC625819F23A7600E77142 /* DataCache */,
+				86AC625A19F23A7600E77142 /* ThirdPart */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86AC625719F2398D00E77142 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86AC625819F23A7600E77142 /* DataCache */ = {
+			isa = PBXGroup;
+			children = (
+				86AC626519F23B7500E77142 /* DataCache.h */,
+				86AC626619F23B7500E77142 /* DataCache.m */,
+			);
+			path = DataCache;
+			sourceTree = "<group>";
+		};
+		86AC625A19F23A7600E77142 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				86AC626819F23B8100E77142 /* SBJSON */,
+				86AC627619F23B8100E77142 /* SDWebImage */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		86AC625B19F23AA000E77142 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		86AC626819F23B8100E77142 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				86AC626919F23B8100E77142 /* JSON.h */,
+				86AC626A19F23B8100E77142 /* NSObject+SBJSON.h */,
+				86AC626B19F23B8100E77142 /* NSObject+SBJSON.m */,
+				86AC626C19F23B8100E77142 /* NSString+SBJSON.h */,
+				86AC626D19F23B8100E77142 /* NSString+SBJSON.m */,
+				86AC626E19F23B8100E77142 /* SBJSON.h */,
+				86AC626F19F23B8100E77142 /* SBJSON.m */,
+				86AC627019F23B8100E77142 /* SBJsonBase.h */,
+				86AC627119F23B8100E77142 /* SBJsonBase.m */,
+				86AC627219F23B8100E77142 /* SBJsonParser.h */,
+				86AC627319F23B8100E77142 /* SBJsonParser.m */,
+				86AC627419F23B8100E77142 /* SBJsonWriter.h */,
+				86AC627519F23B8100E77142 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		86AC627619F23B8100E77142 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				86AC627719F23B8100E77142 /* LICENSE */,
+				86AC627819F23B8100E77142 /* README.md */,
+				86AC627919F23B8100E77142 /* SDImageCache.h */,
+				86AC627A19F23B8100E77142 /* SDImageCache.m */,
+				86AC627B19F23B8100E77142 /* SDImageCacheDelegate.h */,
+				86AC627C19F23B8100E77142 /* SDWebImageCompat.h */,
+				86AC627D19F23B8100E77142 /* SDWebImageDecoder.h */,
+				86AC627E19F23B8100E77142 /* SDWebImageDecoder.m */,
+				86AC627F19F23B8100E77142 /* SDWebImageDownloader.h */,
+				86AC628019F23B8100E77142 /* SDWebImageDownloader.m */,
+				86AC628119F23B8100E77142 /* SDWebImageDownloaderDelegate.h */,
+				86AC628219F23B8100E77142 /* SDWebImageManager.h */,
+				86AC628319F23B8100E77142 /* SDWebImageManager.m */,
+				86AC628419F23B8100E77142 /* SDWebImageManagerDelegate.h */,
+				86AC628519F23B8100E77142 /* SDWebImagePrefetcher.h */,
+				86AC628619F23B8100E77142 /* SDWebImagePrefetcher.m */,
+				86AC628719F23B8100E77142 /* UIButton+WebCache.h */,
+				86AC628819F23B8100E77142 /* UIButton+WebCache.m */,
+				86AC628919F23B8100E77142 /* UIImageView+WebCache.h */,
+				86AC628A19F23B8100E77142 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86AC622719F2391400E77142 /* GavinBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AC624E19F2391400E77142 /* Build configuration list for PBXNativeTarget "GavinBox" */;
+			buildPhases = (
+				86AC622419F2391400E77142 /* Sources */,
+				86AC622519F2391400E77142 /* Frameworks */,
+				86AC622619F2391400E77142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GavinBox;
+			productName = GavinBox;
+			productReference = 86AC622819F2391400E77142 /* GavinBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86AC624319F2391400E77142 /* GavinBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86AC625119F2391400E77142 /* Build configuration list for PBXNativeTarget "GavinBoxTests" */;
+			buildPhases = (
+				86AC624019F2391400E77142 /* Sources */,
+				86AC624119F2391400E77142 /* Frameworks */,
+				86AC624219F2391400E77142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86AC624619F2391400E77142 /* PBXTargetDependency */,
+			);
+			name = GavinBoxTests;
+			productName = GavinBoxTests;
+			productReference = 86AC624419F2391400E77142 /* GavinBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AC622019F2391400E77142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Gavin;
+				TargetAttributes = {
+					86AC622719F2391400E77142 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					86AC624319F2391400E77142 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 86AC622719F2391400E77142;
+					};
+				};
+			};
+			buildConfigurationList = 86AC622319F2391400E77142 /* Build configuration list for PBXProject "GavinBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86AC621F19F2391400E77142;
+			productRefGroup = 86AC622919F2391400E77142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86AC622719F2391400E77142 /* GavinBox */,
+				86AC624319F2391400E77142 /* GavinBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86AC622619F2391400E77142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AC623A19F2391400E77142 /* Main.storyboard in Resources */,
+				86AC623F19F2391400E77142 /* LaunchScreen.xib in Resources */,
+				86AC629119F23B8100E77142 /* LICENSE in Resources */,
+				86AC623C19F2391400E77142 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AC624219F2391400E77142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86AC622419F2391400E77142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AC629919F23B8100E77142 /* UIImageView+WebCache.m in Sources */,
+				86AC628C19F23B8100E77142 /* NSString+SBJSON.m in Sources */,
+				86AC629719F23B8100E77142 /* SDWebImagePrefetcher.m in Sources */,
+				86AC628E19F23B8100E77142 /* SBJsonBase.m in Sources */,
+				86AC626719F23B7500E77142 /* DataCache.m in Sources */,
+				86AC623419F2391400E77142 /* GavinBox.xcdatamodeld in Sources */,
+				86AC628F19F23B8100E77142 /* SBJsonParser.m in Sources */,
+				86AC623119F2391400E77142 /* AppDelegate.m in Sources */,
+				86AC629819F23B8100E77142 /* UIButton+WebCache.m in Sources */,
+				86AC629419F23B8100E77142 /* SDWebImageDecoder.m in Sources */,
+				86AC629319F23B8100E77142 /* SDImageCache.m in Sources */,
+				86AC629019F23B8100E77142 /* SBJsonWriter.m in Sources */,
+				86AC629519F23B8100E77142 /* SDWebImageDownloader.m in Sources */,
+				86AC628B19F23B8100E77142 /* NSObject+SBJSON.m in Sources */,
+				86AC623719F2391400E77142 /* ViewController.m in Sources */,
+				86AC629619F23B8100E77142 /* SDWebImageManager.m in Sources */,
+				86AC629219F23B8100E77142 /* README.md in Sources */,
+				86AC622E19F2391400E77142 /* main.m in Sources */,
+				86AC628D19F23B8100E77142 /* SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86AC624019F2391400E77142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AC624B19F2391400E77142 /* GavinBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86AC624619F2391400E77142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86AC622719F2391400E77142 /* GavinBox */;
+			targetProxy = 86AC624519F2391400E77142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86AC623819F2391400E77142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AC623919F2391400E77142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86AC623D19F2391400E77142 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86AC623E19F2391400E77142 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86AC624C19F2391400E77142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86AC624D19F2391400E77142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86AC624F19F2391400E77142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GavinBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86AC625019F2391400E77142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GavinBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86AC625219F2391400E77142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GavinBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GavinBox.app/GavinBox";
+			};
+			name = Debug;
+		};
+		86AC625319F2391400E77142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GavinBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GavinBox.app/GavinBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86AC622319F2391400E77142 /* Build configuration list for PBXProject "GavinBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AC624C19F2391400E77142 /* Debug */,
+				86AC624D19F2391400E77142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AC624E19F2391400E77142 /* Build configuration list for PBXNativeTarget "GavinBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AC624F19F2391400E77142 /* Debug */,
+				86AC625019F2391400E77142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86AC625119F2391400E77142 /* Build configuration list for PBXNativeTarget "GavinBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AC625219F2391400E77142 /* Debug */,
+				86AC625319F2391400E77142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86AC623219F2391400E77142 /* GavinBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86AC623319F2391400E77142 /* GavinBox.xcdatamodel */,
+			);
+			currentVersion = 86AC623319F2391400E77142 /* GavinBox.xcdatamodel */;
+			path = GavinBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86AC622019F2391400E77142 /* Project object */;
+}
